@@ -1,12 +1,3 @@
-$(document).ready(function() {
-    if (location.protocol !== 'https:') {
-        let url = `https:${location.href.substring(location.protocol.length)}`;
-        if(url.includes("mustachioverse.com")) {
-            location.replace(`https:${location.href.substring(location.protocol.length)}`);
-        }
-    }
-});
-
 $(window).on("load", function() {
     $("#app").removeClass("d-none");
 });
