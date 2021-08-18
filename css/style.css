@@ -49,6 +49,9 @@ html {
 .text-color-9 {
     color:#f4f0eb;
 }
+.text-color-10 {
+    color:#120833;
+}
 .link-color-1 {
     color:#bc3326;
 }
@@ -210,7 +213,7 @@ html {
 
 @media(min-width:768px) {
     #mustachio-logo {
-        width:330px;
+        width:300px;
     }
 }
 
