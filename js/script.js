@@ -2,13 +2,14 @@ $(window).on("load", function() {
     $("#app").removeClass("d-none");
 });
 
-$(document).on("submit", "#newsletter-form", async (event) => {
-    event.preventDefault();
+$(document).on("submit", "#newsletter-form", function(e) {
+    e.preventDefault();
 
     let newsletter_form = $(this);
     newsletter_form.find("[type='submit']").prop("disabled", true);
 
-    let data = new FormData(event.target);
+    console.log(newsletter_form);
+    let data = new FormData($(this)[0]);
 
     $.ajax({
         url: "https://ownly.tk/api/store-mustachio-subscriber",
