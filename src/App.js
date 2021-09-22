@@ -232,7 +232,11 @@ function App() {
                                 </div>
                             </div>
                         </section>
-                        
+
+                        <div className="text-center">
+                            <a href="https://opensea.io/collection/mustachioverse" target="_blank" className="btn w-100 py-3 btn-custom-3 text-2xl font-w-hermann w-hermann-semibold">VIEW MUSTACHIOS ON OPENSEA</a>
+                        </div>
+
                         <hr className="gray-line my-5" />
 
                         <section id="tales" className="mb-4">
