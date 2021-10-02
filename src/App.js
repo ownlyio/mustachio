@@ -346,15 +346,21 @@ function App() {
                                         <li className="done">
                                             <span className="text-white text-lg font-andes">Mustachio Official Launch</span>
                                         </li>
-                                        <li className="now">
+                                        <li className="done">
                                             <span className="text-white text-lg font-andes">Beginning of NFT Tales (Gen. 1)</span>
                                         </li>
                                     </ul>
 
                                     <p className="text-white text-lg font-andes-med-italic mb-0">Q4</p>
                                     <ul className="app-roadmap-timeline mb-3">
-                                        <li className="soon">
+                                        <li className="now">
                                             <span className="text-white text-lg font-andes">OWN Token Airdrop to Mustachio Holders</span>
+                                        </li>
+                                        <li className="soon">
+                                            <span className="text-white text-lg font-andes">Mustachio Backgrounds</span>
+                                        </li>
+                                        <li className="soon">
+                                            <span className="text-white text-lg font-andes">Mustachio Artifacts</span>
                                         </li>
                                         <li className="soon">
                                             <span className="text-white text-lg font-andes">Mustachio Rewards</span>
