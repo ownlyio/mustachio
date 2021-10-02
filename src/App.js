@@ -357,10 +357,10 @@ function App() {
                                             <span className="text-white text-lg font-andes">OWN Token Airdrop to Mustachio Holders</span>
                                         </li>
                                         <li className="soon">
-                                            <span className="text-white text-lg font-andes">Mustachio Backgrounds</span>
+                                            <span className="text-white text-lg font-andes">Mustachio Backgrounds and Locations</span>
                                         </li>
                                         <li className="soon">
-                                            <span className="text-white text-lg font-andes">Mustachio Artifacts</span>
+                                            <span className="text-white text-lg font-andes">Mustachio Artifacts of the Fabled Grooming Kit</span>
                                         </li>
                                         <li className="soon">
                                             <span className="text-white text-lg font-andes">Mustachio Rewards</span>
