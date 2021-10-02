@@ -376,7 +376,7 @@ function App() {
                                     <p className="text-white text-lg font-andes-med-italic mb-0">Q1</p>
                                     <ul className="app-roadmap-timeline mb-3">
                                         <li className="soon">
-                                            <span className="text-white text-lg font-andes">Beginning of the NFT Tales (Gen. 2)</span>
+                                            <span className="text-white text-lg font-andes">Continuation of NFT Tales (Gen. 2)</span>
                                         </li>
                                         <li className="soon">
                                             <span className="text-white text-lg font-andes">Mustachio Events</span>
@@ -389,7 +389,7 @@ function App() {
                                     <p className="text-white text-lg font-andes-med-italic mb-0">Q2</p>
                                     <ul className="app-roadmap-timeline mb-3">
                                         <li className="soon">
-                                            <span className="text-white text-lg font-andes">Beginning of the NFT Tales (Gen. 3)</span>
+                                            <span className="text-white text-lg font-andes">Continuation of NFT Tales (Gen. 3)</span>
                                         </li>
                                         <li className="soon">
                                             <span className="text-white text-lg font-andes">Mustachio Merchandise</span>
@@ -402,7 +402,7 @@ function App() {
                                     <p className="text-white text-lg font-andes-med-italic mb-0">Q3</p>
                                     <ul className="app-roadmap-timeline mb-3">
                                         <li className="soon">
-                                            <span className="text-white text-lg font-andes">Beginning of the NFT Tales (Gen. 4)</span>
+                                            <span className="text-white text-lg font-andes">Continuation of NFT Tales (Gen. 4)</span>
                                         </li>
                                         <li className="soon">
                                             <span className="text-white text-lg font-andes">MustaSHOW (NFT Show)</span>
