@@ -452,7 +452,7 @@ function App() {
                             </div>
                         </div>
                     </Route>
-                    <Route exact path="/discord" component={Discord} />
+                    <Route path="/discord" component={Discord} />
                 </Switch>
                 <Footer />
 
