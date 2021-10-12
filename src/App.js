@@ -197,7 +197,7 @@ function App() {
     }, []);
 
     return (
-        <Router>
+        <Router basename="/">
             <div className="app">
                 <Navbar mintBtn={initUtilsAndMint} />
                 <Switch>
@@ -452,7 +452,7 @@ function App() {
                             </div>
                         </div>
                     </Route>
-                    <Route path="/discord" component={Discord} />
+                    <Route exact path="/discord" component={Discord} />
                 </Switch>
                 <Footer />
 
