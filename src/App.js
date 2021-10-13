@@ -4,12 +4,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Button, Modal } from 'react-bootstrap'
 import { faCheckCircle, faExclamationCircle } from '@fortawesome/free-solid-svg-icons'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import { Discord } from './components/ShortLinks'
 
 // Components
 import Navbar from './components/navbar/Navbar'
 import Footer from './components/footer/Footer'
 import FAQs from './components/faqs/FAQs'
+import { Discord } from './components/ShortLinks'
 
 // Utils
 import contract from './utils/contract'
@@ -197,7 +197,7 @@ function App() {
     }, []);
 
     return (
-        <Router basename="/">
+        <Router basename={process.env.PUBLIC_URL}>
             <div className="app">
                 <Navbar mintBtn={initUtilsAndMint} />
                 <Switch>
