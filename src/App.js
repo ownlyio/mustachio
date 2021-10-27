@@ -225,7 +225,7 @@ function App() {
                                         </div>
                                         <div className="m-auto col-lg-3 col-12 offset-lg-1">
                                             <button id="app-mint-button" className="btn w-100 py-3 btn-custom-1 text-2xl font-w-hermann w-hermann-semibold" type="button" onClick={initUtilsAndMint}>MINT YOURS NOW!</button>
-                                            <button className="btn text-center mt-2 w-100 text-lg font-andes-med text-sm text-gen-color how" onClick={handleShowHowToMint}>How to mint?</button>
+                                            <a className="btn text-center mt-2 w-100 text-lg font-andes-med text-sm text-gen-color how" href="https://ownly.io/htmym" target="_blank" rel="noreferrer">How to mint?</a>
                                         </div>
                                     </div>
                                 </section>
@@ -319,6 +319,25 @@ function App() {
                                         </div>
                                         <div className="col-12 col-md-6">
                                             <a href="https://ownly.io/marketplace/?collection=the-mustachios" target="_blank" className="btn w-100 py-3 btn-custom-2 text-2xl font-w-hermann w-hermann-semibold">VIEW ON MARKETPLACE</a>
+                                        </div>
+                                    </div>
+                                </section>
+
+                                <hr className="gray-line my-5" />
+
+                                <section id="collectibles" className="mb-4">
+                                    <div className="row mb-4">
+                                        <div className="col-lg-7 col-12 order-2 order-lg-1">
+                                            <h1 className="mb-4 text-white font-w-hermann w-hermann-semibold">The Sages Rant Collectibles</h1>
+                                            <p className="text-white text-lg font-andes">Power up your MustachioVerse experience with these amazing treasures - The Sages Rant Collectibles!</p>
+                                            <p className="text-white text-lg font-andes">The Sages Rant Collectibles is a collection of single-edition, legendary pieces that can be acquired by participating in our auction happening this Q4 of 2021.</p>
+                                            <p className="text-white text-lg font-andes">Holders of these backgrounds and artifacts receive distinct strengths and can boost the rarity of their Mustachios – granting magical abilities and unlimited potentials.</p>
+                                            <div className="app-team-link-wrap">
+                                                <a href="https://ownly.io/marketplace/?collection=the-sages-rant-collectibles" target="_blank" rel="noreferrer" className="btn app-team-btn px-4 py-2 btn-custom-2 font-w-hermann w-hermann-semibold text-lg">ENTER MARKETPLACE</a>
+                                            </div>
+                                        </div>
+                                        <div className="my-lg-auto col-lg-4 col-12 offset-lg-1 order-1 order-lg-2 app-collectibles mb-3">
+                                            <img className="w-100" src={collectibles} alt="The Sages Rant Collectibles" />
                                         </div>
                                     </div>
                                 </section>
@@ -433,7 +452,7 @@ function App() {
 
                                 <hr className="gray-line my-5" />
 
-                                <FAQs howToMint={handleShowHowToMint} />
+                                <FAQs />
 
                                 <section id="app-contract" className="py-4">
                                     <div className="text-center">
@@ -448,7 +467,7 @@ function App() {
                     </Route>
                     <Route exact path="/discord" component={Discord} />
                 </Switch>
-                
+
                 <Footer />
 
                 {/* Modal for soldout */}
