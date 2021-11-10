@@ -404,6 +404,9 @@ function App() {
                                             <p className="text-white text-lg font-andes-med-italic mb-0">Q1</p>
                                             <ul className="app-roadmap-timeline mb-3">
                                                 <li className="soon">
+                                                    <span className="text-white text-lg font-andes">Mustachio Quest Play-to-Earn Early Preview</span>
+                                                </li>
+                                                <li className="soon">
                                                     <span className="text-white text-lg font-andes">Continuation of NFT Tales (Gen. 2)</span>
                                                 </li>
                                                 <li className="soon">
