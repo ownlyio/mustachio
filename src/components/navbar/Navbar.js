@@ -101,7 +101,11 @@ function Navbar(props) {
                             <li><HashLink smooth to="#roadmap" scroll={el => scrollWithOffset(el)} title="Roadmap" className="text-white nav-link font-andes">ROADMAP</HashLink></li>
                             {/* <li><a href="https://ownly.io/marketplace/?collection=the-mustachios" title="Gallery" className="text-white nav-link font-andes">GALLERY</a></li> */}
                             <li><HashLink smooth to="#team" scroll={el => scrollWithOffset(el)} title="Team" className="text-white nav-link font-andes">TEAM</HashLink></li>
+                            <li><HashLink smooth to="#mq" scroll={el => scrollWithOffset(el)} title="Mustachio Quest" className="text-white nav-link font-andes">QUEST</HashLink></li>
                             <li><HashLink smooth to="#faqs" scroll={el => scrollWithOffset(el)} title="FAQs" className="text-white nav-link font-andes">FAQS</HashLink></li>
+                            <li>
+                                <a href="https://mustachioverse.com/discord" className="btn btn-custom-2 font-w-hermann w-hermann-semibold d-none d-md-block" target="_blank" rel="noreferrer">JOIN DISCORD</a>
+                            </li>
                             <li>
                                 <div style={{marginLeft: "1rem"}}>
                                     <button id="app-mint-button" className="btn btn-custom-2 font-w-hermann w-hermann-semibold d-none d-md-block" type="button" onClick={props.mintBtn}>MINT YOUR MUSTACHIO!</button>
@@ -120,7 +124,9 @@ function Navbar(props) {
                         <HashLink smooth to="#roadmap" scroll={el => scrollWithOffset(el)} onClick={() => closeMenu()} title="Roadmap" className="text-white d-block py-3 w-100 text-decoration-none font-andes">ROADMAP</HashLink>
                         {/* <a href="https://ownly.io/marketplace/?collection=the-mustachios" onClick={() => closeMenu()} title="Gallery" className="text-white d-block py-3 w-100 text-decoration-none font-andes">GALLERY</a> */}
                         <HashLink smooth to="#team" scroll={el => scrollWithOffset(el)} onClick={() => closeMenu()} title="Team" className="text-white d-block py-3 w-100 text-decoration-none font-andes">TEAM</HashLink>
+                        <HashLink smooth to="#mq" scroll={el => scrollWithOffset(el)} onClick={() => closeMenu()} title="Mustachio Quest" className="text-white d-block py-3 w-100 text-decoration-none font-andes">QUEST</HashLink>
                         <HashLink smooth to="#faqs" scroll={el => scrollWithOffset(el)} onClick={() => closeMenu()} title="FAQs" className="text-white d-block py-3 w-100 text-decoration-none font-andes">FAQS</HashLink>
+                        <a href="https://mustachioverse.com/discord" className="btn btn-custom-2 font-w-hermann w-hermann-semibold mt-3 w-100" target="_blank" rel="noreferrer">JOIN DISCORD</a>
                         <button id="app-mint-button" className="btn btn-custom-2 font-w-hermann w-hermann-semibold d-block mt-3" type="button" onClick={props.mintBtn}>MINT YOUR MUSTACHIO!</button>
                     </Menu>
                 </div>
