@@ -212,7 +212,9 @@ function App() {
                 <Switch>
                     <Route exact path="/">
                         <div className="app-content">
-                            <div className="container">
+                            <MQ />
+
+                            <div className="container mt-5">
                                 <section className="app-banner" id="app-banner">
                                     <img className="w-100 lg-banner" src={grid} alt="Mustachio Banner" />
                                     <img className="w-100 xs-banner d-none" src={grid2} alt="Mustachio Banner" />
@@ -579,13 +581,7 @@ function App() {
                                     </div>
                                 </section>
 
-                                <hr className="gray-line mq-line-bottom mt-5" />
-                            </div>
-                            
-                            <MQ />
-
-                            <div className="container">
-                                <hr className="gray-line mq-line-top mb-5" />
+                                <hr className="gray-line mt-5" />
 
                                 <section id="tales" className="mb-4">
                                     <div className="row mb-4">
