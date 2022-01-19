@@ -28,7 +28,7 @@ function MQInfo() {
     return (
         <section id="quest" className="mb-5 py-5" style={getBG(width)}>
             <div className="container">
-                <div className="row mb-4 align-items-center">
+                <div className="row mb-3 align-items-center">
                     <div className="col-lg-5 col-12 offset-lg-1 mb-3">
 
                     </div>

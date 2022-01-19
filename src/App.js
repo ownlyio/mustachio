@@ -184,7 +184,7 @@ function App() {
             handleShowSoldOut()
         }
     } 
-    
+
     // Initialize wallet address and network if Metamask is already connected
     // Watches for the listeners' update
     useEffect(() => {
@@ -344,9 +344,10 @@ function App() {
                                 <hr className="gray-line my-5" />
 
                                 <section id="roadmap" className="mb-4">
+                                    <h1 className="mb-4 text-white font-w-hermann w-hermann-semibold">Roadmap</h1>
+
                                     <div className="row mb-4">
-                                        <div className="col-lg-7 col-12">
-                                            <h1 className="mb-4 text-white font-w-hermann w-hermann-semibold">Roadmap</h1>
+                                        <div className="col-lg-6 col-12">
                                             {/* 2021 */}
                                             <p className="text-white text-2xl font-andes-med">2021</p>
                                             
@@ -391,7 +392,13 @@ function App() {
                                             <p className="text-white text-lg font-andes-med-italic mb-0">Q1</p>
                                             <ul className="app-roadmap-timeline mb-3">
                                                 <li className="soon">
-                                                    <span className="text-white text-lg font-andes">Mustachio Quest Play-to-Earn Early Preview</span>
+                                                    <span className="text-white text-lg font-andes">Mustachio Quest Concept and Gameplay Announcement</span>
+                                                </li>
+                                                <li className="soon">
+                                                    <span className="text-white text-lg font-andes">Mustachio Quest NFT Land Sale</span>
+                                                </li>
+                                                <li className="soon">
+                                                    <span className="text-white text-lg font-andes">Mustachio Quest Early Preview Launch</span>
                                                 </li>
                                                 {/* <li className="soon">
                                                     <span className="text-white text-lg font-andes">Continuation of NFT Tales (Troop 2)</span>
@@ -413,6 +420,9 @@ function App() {
                                                     <span className="text-white text-lg font-andes">Continuation of NFT Tales (Troop 3)</span>
                                                 </li> */}
                                                 <li className="soon">
+                                                    <span className="text-white text-lg font-andes">Mustachio Quest Game: Beta Launch</span>
+                                                </li>
+                                                <li className="soon">
                                                     <span className="text-white text-lg font-andes">Mustachio Merchandise</span>
                                                 </li>
                                                 {/* <li className="soon">
@@ -426,7 +436,110 @@ function App() {
                                                     <span className="text-white text-lg font-andes">Continuation of NFT Tales (Troop 4)</span>
                                                 </li> */}
                                                 <li className="soon">
+                                                    <span className="text-white text-lg font-andes">Mustachio Quest Game: 1.0 Launch</span>
+                                                </li>
+                                                <li className="soon">
+                                                    <span className="text-white text-lg font-andes">Mustachio Quest Game Marketplace via Ownly Market</span>
+                                                </li>
+                                                <li className="soon">
                                                     <span className="text-white text-lg font-andes">MustaSHOW (NFT Show)</span>
+                                                </li>
+                                            </ul>
+
+                                            <p className="text-white text-lg font-andes-med-italic mb-0">Q4</p>
+                                            <ul className="app-roadmap-timeline mb-3">
+                                                <li className="soon">
+                                                    <span className="text-white text-lg font-andes">Mustachio Quest Play-To-Earn Launch</span>
+                                                </li>
+                                                <li className="soon">
+                                                    <span className="text-white text-lg font-andes">$QUEST Reward Token Launch</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div className="col-lg-6 col-12">
+                                            {/* 2023 */}
+                                            <p className="text-white text-2xl font-andes-med">2023</p>
+                                            
+                                            <p className="text-white text-lg font-andes-med-italic mb-0">Q1</p>
+                                            <ul className="app-roadmap-timeline mb-3">
+                                                <li className="soon">
+                                                    <span className="text-white text-lg font-andes">Mustachio Quest: Automated Scholarships</span>
+                                                </li>
+                                                <li className="soon">
+                                                    <span className="text-white text-lg font-andes">Mustachio Quest: Quarterly World Tournament</span>
+                                                </li>
+                                            </ul>
+
+                                            <p className="text-white text-lg font-andes-med-italic mb-0">Q2</p>
+                                            <ul className="app-roadmap-timeline mb-3">
+                                                <li className="soon">
+                                                    <span className="text-white text-lg font-andes">Mustachio Quest: Continuous Development</span>
+                                                </li>
+                                                <li className="soon">
+                                                    <span className="text-white text-lg font-andes">Mustachio Quest: Quarterly World Tournament</span>
+                                                </li>
+                                            </ul>
+
+                                            <p className="text-white text-lg font-andes-med-italic mb-0">Q3</p>
+                                            <ul className="app-roadmap-timeline mb-3">
+                                                <li className="soon">
+                                                    <span className="text-white text-lg font-andes">Mustachio Quest: Continuous Development</span>
+                                                </li>
+                                                <li className="soon">
+                                                    <span className="text-white text-lg font-andes">Mustachio Quest: Quarterly World Tournament</span>
+                                                </li>
+                                            </ul>
+
+                                            <p className="text-white text-lg font-andes-med-italic mb-0">Q4</p>
+                                            <ul className="app-roadmap-timeline mb-3">
+                                                <li className="soon">
+                                                    <span className="text-white text-lg font-andes">Mustachio Quest: Continuous Development</span>
+                                                </li>
+                                                <li className="soon">
+                                                    <span className="text-white text-lg font-andes">Mustachio Quest: Quarterly World Tournament</span>
+                                                </li>
+                                            </ul>
+
+                                            {/* 2024 */}
+                                            <p className="text-white text-2xl font-andes-med">2024</p>
+                                        
+                                            <p className="text-white text-lg font-andes-med-italic mb-0">Q1</p>
+                                            <ul className="app-roadmap-timeline mb-3">
+                                                <li className="soon">
+                                                    <span className="text-white text-lg font-andes">Mustachio Quest: Continuous Development</span>
+                                                </li>
+                                                <li className="soon">
+                                                    <span className="text-white text-lg font-andes">Mustachio Quest: Quarterly World Tournament</span>
+                                                </li>
+                                            </ul>
+
+                                            <p className="text-white text-lg font-andes-med-italic mb-0">Q2</p>
+                                            <ul className="app-roadmap-timeline mb-3">
+                                                <li className="soon">
+                                                    <span className="text-white text-lg font-andes">Mustachio Quest: Continuous Development</span>
+                                                </li>
+                                                <li className="soon">
+                                                    <span className="text-white text-lg font-andes">Mustachio Quest: Quarterly World Tournament</span>
+                                                </li>
+                                            </ul>
+
+                                            <p className="text-white text-lg font-andes-med-italic mb-0">Q3</p>
+                                            <ul className="app-roadmap-timeline mb-3">
+                                                <li className="soon">
+                                                    <span className="text-white text-lg font-andes">Mustachio Quest: Continuous Development</span>
+                                                </li>
+                                                <li className="soon">
+                                                    <span className="text-white text-lg font-andes">Mustachio Quest: Quarterly World Tournament</span>
+                                                </li>
+                                            </ul>
+
+                                            <p className="text-white text-lg font-andes-med-italic mb-0">Q4</p>
+                                            <ul className="app-roadmap-timeline mb-3">
+                                                <li className="soon">
+                                                    <span className="text-white text-lg font-andes">Mustachio Quest: Integration with OwnChain</span>
+                                                </li>
+                                                <li className="soon">
+                                                    <span className="text-white text-lg font-andes">Mustachio Quest: Quarterly World Tournament</span>
                                                 </li>
                                             </ul>
                                         </div>
