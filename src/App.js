@@ -10,6 +10,7 @@ import Navbar from './components/navbar/Navbar'
 import Footer from './components/footer/Footer'
 import FAQs from './components/faqs/FAQs'
 import MQ from './components/mq/MQ'
+import MQInfo from './components/mq_info/MQInfo'
 import { Discord } from './components/ShortLinks'
 
 // Utils
@@ -39,7 +40,6 @@ import abracadoobie from './images/team/abracadoobie.png'
 import candyfloss from './images/team/candyfloss.png'
 import grim from './images/team/grim.png'
 import hotdogprince from './images/team/hotdogprince.png'
-import kingstellar from './images/team/kingstellar.png'
 import loonywise from './images/team/loonywise.png'
 import mexico from './images/team/mexico.png'
 import mountainwarrior from './images/team/mountainwarrior.png'
@@ -184,7 +184,7 @@ function App() {
             handleShowSoldOut()
         }
     } 
-
+    
     // Initialize wallet address and network if Metamask is already connected
     // Watches for the listeners' update
     useEffect(() => {
@@ -244,27 +244,6 @@ function App() {
                                         <div className="m-auto col-lg-3 col-12 offset-lg-1">
                                             <button id="app-mint-button" className="btn w-100 py-3 btn-custom-1 text-2xl font-w-hermann w-hermann-semibold" type="button" onClick={initUtilsAndMint}>MINT YOURS NOW!</button>
                                             <button className="btn text-center mt-2 w-100 text-lg font-andes-med text-sm text-gen-color how" onClick={handleShowHowToMint}>How to mint?</button>
-                                        </div>
-                                    </div>
-                                </section>
-
-                                <hr className="gray-line my-5" />
-
-                                <section id="tales" className="mb-4">
-                                    <div className="row mb-4">
-                                        <div className="col-lg-7 col-12 order-2 order-lg-1">
-                                            <h1 className="mb-4 text-white font-w-hermann w-hermann-semibold">The Tale of the Prospector</h1>
-                                            <p className="text-white text-lg font-andes">O, when the Mustachios dwell in the MustachioVerse, there is but one Mustachio who stood out among the rest.</p>
-                                            <p className="text-white text-lg font-andes">The Prospector, supreme beyond all MustachioKind, who bore in his mighty hands all 9 artifacts from the fabled Grooming Kit.</p>
-                                            <p className="text-white text-lg font-andes">He who dared seek success and happiness through audacious exploits that moved mountains and changed the courses of the rivers.</p>
-                                            <p className="text-white text-lg font-andes">The Prospector.</p>
-                                            <p className="text-white text-lg font-andes">You'll hear more about this noble legend who brought honour to the land of mustached beings and born explorers in two ticks.</p>
-                                            <div className="app-tales-link-wrap">
-                                                <a href="https://tales.mustachioverse.com" className="btn app-tales-btn px-4 py-2 btn-custom-2 font-w-hermann w-hermann-semibold text-lg">ENTER THE MUSTACHIOVERSE</a>
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-4 col-12 offset-lg-1 order-1 order-lg-2 prospector">
-                                            <img className="w-100" src={prospector} alt="Prospector" />
                                         </div>
                                     </div>
                                 </section>
@@ -340,9 +319,11 @@ function App() {
                                         </div>
                                     </div>
                                 </section>
+                            </div>
 
-                                <hr className="gray-line my-5" />
+                            <MQInfo />
 
+                            <div className="container mt-5">
                                 <section id="collectibles" className="mb-4">
                                     <div className="row mb-4">
                                         <div className="col-lg-7 col-12 order-2 order-lg-1">
@@ -583,6 +564,27 @@ function App() {
                                 </section>
 
                                 <hr className="gray-line mt-5" />
+
+                                <section id="tales" className="mb-4">
+                                    <div className="row mb-4">
+                                        <div className="col-lg-7 col-12 order-2 order-lg-1">
+                                            <h1 className="mb-4 text-white font-w-hermann w-hermann-semibold">The Tale of the Prospector</h1>
+                                            <p className="text-white text-lg font-andes">O, when the Mustachios dwell in the MustachioVerse, there is but one Mustachio who stood out among the rest.</p>
+                                            <p className="text-white text-lg font-andes">The Prospector, supreme beyond all MustachioKind, who bore in his mighty hands all 9 artifacts from the fabled Grooming Kit.</p>
+                                            <p className="text-white text-lg font-andes">He who dared seek success and happiness through audacious exploits that moved mountains and changed the courses of the rivers.</p>
+                                            <p className="text-white text-lg font-andes">The Prospector.</p>
+                                            <p className="text-white text-lg font-andes">You'll hear more about this noble legend who brought honour to the land of mustached beings and born explorers in two ticks.</p>
+                                            <div className="app-tales-link-wrap">
+                                                <a href="https://tales.mustachioverse.com" className="btn app-tales-btn px-4 py-2 btn-custom-2 font-w-hermann w-hermann-semibold text-lg">READ THE TALE OF THE PROSPECTOR</a>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-4 col-12 offset-lg-1 order-1 order-lg-2 prospector">
+                                            <img className="w-100" src={prospector} alt="Prospector" />
+                                        </div>
+                                    </div>
+                                </section>
+
+                                <hr className="gray-line my-5" />
 
                                 <section id="tales" className="mb-4">
                                     <div className="row mb-4">
