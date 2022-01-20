@@ -57,7 +57,7 @@ function MQInfo() {
                             <img src={mq_poster} className="w-100" alt="FP" />
                         </div> */}
 
-                        <div onClick={() => showPictureHandler(fp2)} title="Click to enlarge" className="cursor-pointer" style={{"borderRadius": "10px", "border": "6px solid #ffffff", "marginRight": "10px"}}>
+                        <div onClick={() => showPictureHandler(fp2)} title="Click to enlarge" className="cursor-pointer" style={{"borderRadius": "10px", "border": "6px solid #ffffff"}}>
                             <img src={fp2} className="w-100" alt="FP" />
                         </div>
                         <div className="d-flex justify-content-between mt-3 mb-4 mb-lg-0">
