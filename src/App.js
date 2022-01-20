@@ -372,7 +372,7 @@ function App() {
                                                 <li className="done">
                                                     <span className="text-white text-lg font-andes">OWN Token Airdrop to Mustachio Holders</span>
                                                 </li>
-                                                <li className="now">
+                                                <li className="done">
                                                     <span className="text-white text-lg font-andes">Launch of The Sages Rant Collectibles</span>
                                                 </li>
                                                 {/* <li className="soon">
@@ -391,7 +391,7 @@ function App() {
                                         
                                             <p className="text-white text-lg font-andes-med-italic mb-0">Q1</p>
                                             <ul className="app-roadmap-timeline mb-3">
-                                                <li className="soon">
+                                                <li className="now">
                                                     <span className="text-white text-lg font-andes">Mustachio Quest Concept and Gameplay Announcement</span>
                                                 </li>
                                                 <li className="soon">
@@ -403,12 +403,12 @@ function App() {
                                                 {/* <li className="soon">
                                                     <span className="text-white text-lg font-andes">Continuation of NFT Tales (Troop 2)</span>
                                                 </li> */}
-                                                <li className="soon">
+                                                {/* <li className="soon">
                                                     <span className="text-white text-lg font-andes">Make Your Own Assets</span>
                                                 </li>
                                                 <li className="soon">
                                                     <span className="text-white text-lg font-andes">Mustachio Events</span>
-                                                </li>
+                                                </li> */}
                                                 {/* <li className="soon">
                                                     <span className="text-white text-lg font-andes">Launch of OG Mustachios Troop 3 (250 Mustachios)</span>
                                                 </li> */}
@@ -422,9 +422,9 @@ function App() {
                                                 <li className="soon">
                                                     <span className="text-white text-lg font-andes">Mustachio Quest Game: Beta Launch</span>
                                                 </li>
-                                                <li className="soon">
+                                                {/* <li className="soon">
                                                     <span className="text-white text-lg font-andes">Mustachio Merchandise</span>
-                                                </li>
+                                                </li> */}
                                                 {/* <li className="soon">
                                                     <span className="text-white text-lg font-andes">Launch of OG Mustachios Troop 4 (399 Mustachios)</span>
                                                 </li> */}
@@ -441,9 +441,9 @@ function App() {
                                                 <li className="soon">
                                                     <span className="text-white text-lg font-andes">Mustachio Quest Game Marketplace via Ownly Market</span>
                                                 </li>
-                                                <li className="soon">
+                                                {/* <li className="soon">
                                                     <span className="text-white text-lg font-andes">MustaSHOW (NFT Show)</span>
-                                                </li>
+                                                </li> */}
                                             </ul>
 
                                             <p className="text-white text-lg font-andes-med-italic mb-0">Q4</p>
