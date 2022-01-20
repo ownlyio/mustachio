@@ -5,8 +5,8 @@ import { faCheckCircle, faExclamationCircle } from '@fortawesome/free-solid-svg-
 import axios from 'axios'
 import './MQ.css'
 
-import mqbanner from '../../images/mq_banner.jpg'
-import mqbannertab from '../../images/mq_banner_tab.jpg'
+import mqbanner from '../../images/mq/mq_banner.jpg'
+import mqbannertab from '../../images/mq/mq_banner_tab.jpg'
 
 function MQ() {
     const [emailAdd, setEmailAdd] = useState("")
