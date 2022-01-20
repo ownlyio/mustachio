@@ -53,7 +53,7 @@ function MQInfo() {
                         {/* <video autoplay loop controls controlsList="nodownload" class="w-100" poster={mq_poster} style={{"borderRadius": "10px", "border": "6px solid #ffffff"}}>
                             <source src={mq_video} type="video/mp4" />
                         </video> */}
-                        <div onClick={() => showPictureHandler(mq_poster)} title="Click to enlarge" className="cursor-pointer" style={{"borderRadius": "10px", "border": "6px solid #ffffff", "marginRight": "10px"}}>
+                        <div onClick={() => showPictureHandler(mq_poster)} title="Click to enlarge" className="cursor-pointer" style={{"borderRadius": "10px", "border": "6px solid #ffffff"}}>
                             <img src={mq_poster} className="w-100" alt="MQ Poster" />
                         </div>
                         <div className="d-flex justify-content-between mt-3 mb-4 mb-lg-0">
