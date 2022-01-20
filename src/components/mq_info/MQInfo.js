@@ -53,12 +53,16 @@ function MQInfo() {
                         {/* <video autoplay loop controls controlsList="nodownload" class="w-100" poster={mq_poster} style={{"borderRadius": "10px", "border": "6px solid #ffffff"}}>
                             <source src={mq_video} type="video/mp4" />
                         </video> */}
+                        {/* <div onClick={() => showPictureHandler(mq_poster)} title="Click to enlarge" className="cursor-pointer" style={{"borderRadius": "10px", "border": "6px solid #ffffff", "marginRight": "10px"}}>
+                            <img src={mq_poster} className="w-100" alt="FP" />
+                        </div> */}
+
+                        <div onClick={() => showPictureHandler(fp2)} title="Click to enlarge" className="cursor-pointer" style={{"borderRadius": "10px", "border": "6px solid #ffffff", "marginRight": "10px"}}>
+                            <img src={fp2} className="w-100" alt="FP" />
+                        </div>
                         <div className="d-flex justify-content-between mt-3 mb-4 mb-lg-0">
                             <div onClick={() => showPictureHandler(fp)} title="Click to enlarge" className="cursor-pointer" style={{"borderRadius": "10px", "border": "6px solid #ffffff", "marginRight": "10px"}}>
                                 <img src={fp} className="w-100" alt="FP" />
-                            </div>
-                            <div onClick={() => showPictureHandler(fp2)} title="Click to enlarge" className="cursor-pointer" style={{"borderRadius": "10px", "border": "6px solid #ffffff", "marginRight": "10px"}}>
-                                <img src={fp2} className="w-100" alt="FP" />
                             </div>
                             <div onClick={() => showPictureHandler(fp3)} title="Click to enlarge" className="cursor-pointer" style={{"borderRadius": "10px", "border": "6px solid #ffffff"}}>
                                 <img src={fp3} className="w-100" alt="FP" />
@@ -69,7 +73,6 @@ function MQInfo() {
                         <h1 className="mb-4 text-white font-w-hermann w-hermann-semibold">The Upcoming Play-To-Earn Game!</h1>
                         <p className="text-white text-lg font-andes">Put your power to the test with <HashLink smooth to="#mq" scroll={el => scrollWithOffset(el)} title="Mustachio Quest" className="font-andes-med">Mustachio Quest!</HashLink></p>
                         <p className="text-white text-lg font-andes">Inspired by the tales and adventures of the Mustachios in The Sages Rant, Mustachio Quest is Ownly’s first NFT Play-to-Earn Game created inside MustachioVerse where players can sport around using the 3D versions of their Mustachios.</p>
-                        <p className="text-white text-lg mb-0 font-andes">Treasure awaits victors in a form of quest.</p>
                     </div>
                 </div>
             </div>
