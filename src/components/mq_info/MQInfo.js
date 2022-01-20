@@ -50,7 +50,7 @@ function MQInfo() {
             <div className="container">
                 <div className="row mb-3 align-items-center">
                     <div className="col-lg-5 col-12 mb-3">
-                        <video autoplay loop controls class="w-100" poster={mq_poster} style={{"borderRadius": "10px", "border": "6px solid #ffffff"}}>
+                        <video autoplay loop controls controlsList="nodownload" class="w-100" poster={mq_poster} style={{"borderRadius": "10px", "border": "6px solid #ffffff"}}>
                             <source src={mq_video} type="video/mp4" />
                         </video>
                         <div className="d-flex justify-content-between mt-3 mb-4 mb-lg-0">
