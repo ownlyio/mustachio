@@ -403,6 +403,9 @@ function App() {
                                                 <li className="soon">
                                                     <span className="text-white text-lg font-andes">Launch of the 10,000 3D Mustachios</span>
                                                 </li>
+                                                <li className="soon">
+                                                    <span className="text-white text-lg font-andes">Launch of 3D Mustachio Visualizer</span>
+                                                </li>
                                                 {/* <li className="soon">
                                                     <span className="text-white text-lg font-andes">Continuation of NFT Tales (Troop 2)</span>
                                                 </li> */}
