@@ -77,6 +77,7 @@ function FAQs(props) {
                                     <p className="text-lg font-andes">Facebook: <a href="https://web.facebook.com/mustachioverse" target="_blank" rel="noreferrer">https://web.facebook.com/mustachioverse</a></p>
                                     <p className="text-lg font-andes">Instagram: <a href="https://www.instagram.com/mustachioverse" target="_blank" rel="noreferrer">https://www.instagram.com/mustachioverse</a></p>
                                     <p className="text-lg font-andes">Twitter: <a href="https://twitter.com/mustachioverse" target="_blank" rel="noreferrer">https://twitter.com/mustachioverse</a></p>
+                                    <p className="text-lg font-andes">Telegram: <a href="https://ownly.io/telegram" target="_blank" rel="noreferrer">https://ownly.io/telegram</a></p>
                                     <p className="text-lg font-andes">Discord: <a href="https://mustachioverse.com/discord" target="_blank" rel="noreferrer">https://mustachioverse.com/discord</a></p>
                                 </div>
                             </div>
