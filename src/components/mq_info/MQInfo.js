@@ -71,7 +71,7 @@ function MQInfo() {
                     <div className="col-lg-6 col-12 offset-lg-1">
                         <h1 className="mb-4 text-white font-w-hermann w-hermann-semibold">The Upcoming Play-To-Earn Game!</h1>
                         <p className="text-white text-lg font-andes">Put your power to the test with <HashLink smooth to="#mq" scroll={el => scrollWithOffset(el)} title="Mustachio Quest" className="font-andes-med">Mustachio Quest!</HashLink></p>
-                        <p className="text-white text-lg font-andes">Inspired by the tales and adventures of the Mustachios in The Sages Rant, Mustachio Quest is Ownly’s first NFT Play-to-Earn Game created inside MustachioVerse where players can sport around using the 3D versions of their Mustachios.</p>
+                        <p className="text-white text-lg font-andes">Inspired by the tales and adventures of the Mustachios in The Sages Rant, Mustachio Quest is Ownly’s first NFT Play-to-Earn Game created inside MustachioVerse where players can move freely using the 3D versions of their Mustachios.</p>
                     </div>
                 </div>
             </div>
