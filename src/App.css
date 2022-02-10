@@ -1,9 +1,12 @@
-#app-mint {
+#app-mint,
+#app-discord {
   background-color: #a2b634;
 }
 
 #app-mint-button:hover,
-#app-mint-button:focus {
+#app-mint-button:focus,
+#app-discord-button:hover,
+#app-discord-button:focus {
   background-color: var(--hover-color);
   color: white;
 }

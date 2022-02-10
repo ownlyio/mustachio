@@ -223,9 +223,12 @@ function App() {
                                 <section id="app-welcome" className="py-4">
                                     <div className="row mb-4">
                                         <div className="col-lg-6 col-12">
-                                            <h1 className="mb-4 text-white font-w-hermann w-hermann-semibold">Welcome to The Mustachios!</h1>
-                                            <p className="text-white text-lg font-andes">With his mighty pen and a slight quiver on his shoulders, Boii Mustache have yet created another masterpiece... in the form of The Mustachios, the first-ever NFT Tales before our eyes, so we can transport as Mustachios to this mysterious island concealed on earth - the MustachioVerse.</p>
-                                            <p className="text-white text-lg font-andes">Together, let's open The Sages Rant and read our story of how we triumphed over the 998 other Mustachios in our quest to find The Golden Mustache, and how we became the mustached hero.</p>
+                                            <h1 className="mb-4 text-white font-w-hermann w-hermann-semibold">Welcome to Mustachioverse!</h1>
+                                            <p className="text-white text-lg font-andes">With his mighty pen and a slight quiver on his shoulders, <a className="text-lg font-andes" href="https://medium.com/ownlyio/meet-the-secretive-artist-behind-the-mustachios-e94a9c335774" target="_blank" rel="noreferrer">Boii Mustache</a> have yet created another masterpiece... in the form of The Mustachios, the first-ever NFT Tales, that now comes with its own play-to-earn NFT game, Mustachio Quest.</p>
+                                            <p className="text-white text-lg font-andes">Join us in our Discord community as we build a solid foundation for this fictional open world in the land of the Mustachios.</p>
+                                            <div className="app-welcome-link-wrap">
+                                                <a href="https://mustachioverse.com/discord" className="btn app-tales-btn px-4 py-2 btn-custom-2 font-w-hermann w-hermann-semibold text-lg" target="_blank" rel="noreferrer">JOIN DISCORD</a>
+                                            </div>
                                         </div>
                                         <div className="my-lg-auto col-lg-5 col-12 offset-lg-1">
                                             <img className="w-100" src={mustachioBanner} alt="Mustachio Banner" />
@@ -239,7 +242,7 @@ function App() {
                                             <h3 className="font-w-hermann w-hermann-semibold text-white text-center">MINT YOUR MUSTACHIO</h3>
                                         </div>
                                         <div className="m-auto col-lg-4 col-12 offset-lg-1">
-                                            <p className="text-justify text-lg font-andes text-white mb-lg-0">Get ready to discover the secrets and adventures that lie within MustachioVerse. Mint your OWN Mustachio today.</p>
+                                            <p className="text-justify text-lg font-andes text-white mb-lg-0">Get ready to discover the secrets and adventures that lie within Mustachio Quest. Mint your OWN Mustachio today.</p>
                                         </div>
                                         <div className="m-auto col-lg-3 col-12 offset-lg-1">
                                             <button id="app-mint-button" className="btn w-100 py-3 btn-custom-1 text-2xl font-w-hermann w-hermann-semibold" type="button" onClick={initUtilsAndMint}>MINT YOURS NOW!</button>
@@ -253,8 +256,8 @@ function App() {
                                 <section id="app-specs" className="mb-4">
                                     <div className="row mb-4">
                                         <div className="col-lg-7 col-12">
-                                            <h1 className="mb-4 text-white font-w-hermann w-hermann-semibold">Why Mint our Mustachios?</h1>
-                                            <p className="text-white text-lg font-andes">When you mint a Mustachio, you’re not simply buying an avatar. The Mustachio will be your key to enter the journey in collecting artifacts that will increase your rarity and scout level in the MustachioVerse.</p>
+                                            <h1 className="mb-4 text-white font-w-hermann w-hermann-semibold">Why Mint Your Own Mustachio</h1>
+                                            <p className="text-white text-lg font-andes">When you mint a Mustachio, you’re not simply buying an avatar. The Mustachio will be your key to enter the portal and join Mustachio Quest, an open world NFT game, where you can interact with other Mustachios.</p>
                                         </div>
                                     </div>
                                     <div className="row mb-4">
@@ -324,13 +327,12 @@ function App() {
                             <MQInfo />
 
                             <div className="container mt-5">
-                                <section id="collectibles" className="mb-4">
+                                {/* <section id="collectibles" className="mb-4">
                                     <div className="row mb-4">
                                         <div className="col-lg-7 col-12 order-2 order-lg-1">
                                             <h1 className="mb-4 text-white font-w-hermann w-hermann-semibold">The Sages Rant Collectibles</h1>
                                             <p className="text-white text-lg font-andes">Power up your MustachioVerse experience with these amazing treasures - The Sages Rant Collectibles!</p>
-                                            <p className="text-white text-lg font-andes">The Sages Rant Collectibles is a collection of single-edition, legendary pieces that can be acquired by participating in our auction happening this Q4 of 2021.</p>
-                                            <p className="text-white text-lg font-andes">Holders of these backgrounds and artifacts receive distinct strengths and can boost the rarity of their Mustachios – granting magical abilities and unlimited potentials.</p>
+                                            <p className="text-white text-lg font-andes">The Sages Rant Collectibles is a collection of single-edition, legendary pieces like backgrounds and artifacts introduced in  <a className="text-lg font-andes" href="https://tales.mustachioverse.com" target="_blank" rel="noreferrer">The Sages Rant</a>, the first ever NFT tales.</p>
                                             <div className="app-team-link-wrap">
                                                 <a href="https://ownly.io/marketplace/?collection=the-sages-rant-collectibles" target="_blank" rel="noreferrer" className="btn app-team-btn px-4 py-2 btn-custom-2 font-w-hermann w-hermann-semibold text-lg">ENTER MARKETPLACE</a>
                                             </div>
@@ -341,7 +343,7 @@ function App() {
                                     </div>
                                 </section>
 
-                                <hr className="gray-line my-5" />
+                                <hr className="gray-line my-5" /> */}
 
                                 <section id="roadmap" className="mb-4">
                                     <h1 className="mb-4 text-white font-w-hermann w-hermann-semibold">Roadmap</h1>
@@ -558,8 +560,8 @@ function App() {
                                     <div className="row" style={{"marginBottom": "3rem"}}>
                                         <div className="col-lg-7 col-12 order-2 order-lg-1">
                                             <h1 className="mb-4 text-white font-w-hermann w-hermann-semibold">The Mustachio Team</h1>
-                                            <p className="text-white text-lg font-andes">The Mustachios are created by a secretive-taciturn local artist hiding under the character <a href="https://twitter.com/BoiiMustache">Boii Mustache</a>. He adopted the character Boii Mustache as his personality. The character resembles the artist himself, a long-haired guy with a nevus in his lower left eye and, of course, the legendary mustache.</p>
-                                            <p className="text-white text-lg font-andes">With the idea of becoming whoever we want to be, he started creating different mustached beings, and The MustachioVerse was conceived.</p>
+                                            <p className="text-white text-lg font-andes">The Mustachios are created by a secretive-taciturn local artist hiding under the character Boii Mustache. The character resembles the artist himself, a long-haired guy with a nevus in his lower left eye and, of course, the legendary mustache.</p>
+                                            <p className="text-white text-lg font-andes">With the idea of becoming whoever we want to be, he started creating different mustached beings. Thus, MustachioVerse was conceived.</p>
                                             <p className="text-white text-lg font-andes">You can check them out below.</p>
                                         </div>
                                         <div className="my-lg-auto col-lg-4 col-12 offset-lg-1 order-1 order-lg-2 boii-mustache">
@@ -694,7 +696,7 @@ function App() {
                                             <p className="text-white text-lg font-andes">The Prospector.</p>
                                             <p className="text-white text-lg font-andes">You'll hear more about this noble legend who brought honour to the land of mustached beings and born explorers in two ticks.</p>
                                             <div className="app-tales-link-wrap">
-                                                <a href="https://tales.mustachioverse.com" className="btn app-tales-btn px-4 py-2 btn-custom-2 font-w-hermann w-hermann-semibold text-lg">READ THE TALE OF THE PROSPECTOR</a>
+                                                <a href="https://tales.mustachioverse.com" className="btn app-tales-btn px-4 py-2 btn-custom-2 font-w-hermann w-hermann-semibold text-lg">READ THE TALES</a>
                                             </div>
                                         </div>
                                         <div className="col-lg-4 col-12 offset-lg-1 order-1 order-lg-2 prospector">
@@ -703,15 +705,25 @@ function App() {
                                     </div>
                                 </section>
 
-                                <hr className="gray-line my-5" />
-
-                                <section id="tales" className="mb-4">
+                                <section id="app-discord" className="my-5">
+                                    <div className="row p-4 m-auto">
+                                        <div className="m-auto col-lg-3 col-12">
+                                            <h3 className="font-w-hermann w-hermann-semibold text-white text-center">JOIN OUR DISCORD COMMUNITY</h3>
+                                        </div>
+                                        <div className="m-auto col-lg-4 col-12 offset-lg-1">
+                                            <p className="text-justify text-lg font-andes text-white mb-lg-0">We are building our community on Discord where we frequently host members-only events, giveaways, and airdrops. Connect with us. Rewards, events, and perks await!</p>
+                                        </div>
+                                        <div className="m-auto col-lg-3 col-12 offset-lg-1">
+                                            <a href="https://mustachioverse.com/discord" id="app-discord-button" className="btn w-100 py-3 btn-custom-1 text-2xl font-w-hermann w-hermann-semibold">JOIN MUSTACHIOVERSE DISCORD NOW!</a>
+                                        </div>
+                                    </div>
+                                </section>
+{/* 
+                                <section id="tales" className="discord-comm my-5">
                                     <div className="row mb-4">
                                         <div className="col-lg-7 col-12 order-2 order-lg-1">
                                             <h1 className="mb-4 text-white font-w-hermann w-hermann-semibold">Join Our Discord Community</h1>
-                                            <p className="text-white text-lg font-andes">All hail to the Tale of the Prospector!</p>
-                                            <p className="text-white text-lg font-andes">We are building our community on Discord and we are so excited to utilize its features and a lot of interesting channels - like giveaway and airdrops.</p>
-                                            <p className="text-white text-lg font-andes">Rewards, events, and perks awaits!</p>
+                                            <p className="text-white text-lg font-andes">We are building our community on Discord where we frequently host members-only events, giveaways, and airdrops. Connect with us. Rewards, events, and perks await!</p>
                                             <div className="app-tales-link-wrap">
                                                 <a href="https://mustachioverse.com/discord" className="btn app-tales-btn px-4 py-2 btn-custom-2 font-w-hermann w-hermann-semibold text-lg">JOIN MUSTACHIOVERSE DISCORD NOW!</a>
                                             </div>
@@ -720,9 +732,9 @@ function App() {
                                             <img className="w-100" src={discord} alt="Discord" />
                                         </div>
                                     </div>
-                                </section>
+                                </section> */}
 
-                                <hr className="gray-line my-5" />
+                                <hr className="gray-line mt-5" />
 
                                 <FAQs />
 

@@ -54,7 +54,7 @@ function MQ() {
                     <div className="row">
                         <div className="col-lg-5 col-12 mq-row">
                             <h1 className="mb-4 text-white font-w-hermann w-hermann-semibold text-6xl">Mustachio Quest</h1>
-                            <p className="text-white text-2xl font-andes mb-5">Upcoming <a href="https://ownly.io/bbb-p2e" target="_blank" rel="noreferrer">Play-to-Earn Game</a>. Stashing Soon...</p>
+                            <p className="text-white text-2xl font-andes mb-5">Craft your Mustachio’s 3D experience in Ownly’s upcoming play-to-earn open world NFT game.</p>
                             <p className="text-white text-3xl font-andes">BE THE FIRST TO KNOW</p>
                             <form onSubmit={submitForm}>
                                 <div className="input-group">
