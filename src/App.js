@@ -287,7 +287,7 @@ function App() {
                                                     <img className="img-fluid m-auto" src={mustachioToken} alt="10% Cryptoback" />
                                                 </div>
                                                 <div className="m-auto col-md-12 col-sm-6 col-7 offset-md-0 offset-sm-1 offset-1 ps-4 ps-md-0">
-                                                    <p className="text-white mt-md-3 mb-0 text-center text-lg font-andes">Get 10% CRYPTOBACK in OWN Tokens</p>
+                                                    <p className="text-white mt-md-3 mb-0 text-center text-lg font-andes">10% crypto back in OWN tokens</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -297,7 +297,7 @@ function App() {
                                                     <img className="img-fluid m-auto" src={book} alt="Unravel tales" />
                                                 </div>
                                                 <div className="m-auto col-md-12 col-sm-6 col-7 offset-md-0 offset-sm-1 offset-1 ps-4 ps-md-0">
-                                                    <p className="text-white mt-md-3 mb-0 text-center text-lg font-andes">Discover the unique NFT tales behind each Mustachio</p>
+                                                    <p className="text-white mt-md-3 mb-0 text-center text-lg font-andes">Unravel stories and find your fortune in-game</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -307,7 +307,7 @@ function App() {
                                                     <img className="img-fluid m-auto" src={mustachiosGroup} alt="Max supply 999" />
                                                 </div>
                                                 <div className="m-auto col-md-12 col-sm-6 col-7 offset-md-0 offset-sm-1 offset-1 ps-4 ps-md-0">
-                                                    <p className="text-white mt-md-3 mb-0 text-center text-lg font-andes">Only 999 Mustachios will ever exist</p>
+                                                    <p className="text-white mt-md-3 mb-0 text-center text-lg font-andes">2D Mustachio NFT avatars from our Genesis set</p>
                                                 </div>
                                             </div>
                                         </div>

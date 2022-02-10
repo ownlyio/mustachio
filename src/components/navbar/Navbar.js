@@ -88,14 +88,14 @@ function Navbar(props) {
                         <button id="app-mint-button" className="btn btn-custom-2 font-w-hermann w-hermann-semibold d-none d-lg-block" type="button" onClick={props.mintBtn}>MINT YOUR MUSTACHIO!</button>
                     </div>
                 </div> */}
-                <div class="d-flex align-items-center justify-content-between w-100">
-					<div class="d-flex align-items-center">
+                <div className="d-flex align-items-center justify-content-between w-100">
+					<div className="d-flex align-items-center">
                         <Link exact="true" to="/" id="mustachio-brand" className="navbar-brand">
                             <img src={mustachioLogo} className="d-inline-block align-top" alt="Mustachio Logo" height="65px" width="auto" />
                         </Link>
 					</div>
 					<div className="d-none d-md-block">
-                        <ul class="nav justify-content-center mb-0">
+                        <ul className="nav justify-content-center mb-0">
                             <li><HashLink smooth to="#quest" scroll={el => scrollWithOffset(el)} title="Mustachio Quest" className="text-white nav-link font-andes">QUEST</HashLink></li>
                             {/* <li><HashLink smooth to="#collectibles" scroll={el => scrollWithOffset(el)} title="Collectibles" className="text-white nav-link font-andes">COLLECTIBLES</HashLink></li> */}
                             <li><HashLink smooth to="#roadmap" scroll={el => scrollWithOffset(el)} title="Roadmap" className="text-white nav-link font-andes">ROADMAP</HashLink></li>
