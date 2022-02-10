@@ -2,14 +2,10 @@
   background-color: #a2b634;
 }
 
-#app-mint-button {
-  transition: all 0.5s ease;
-}
-
 #app-mint-button:hover,
 #app-mint-button:focus {
-  background-color: #fff;
-  color: #333;
+  background-color: var(--hover-color);
+  color: white;
 }
 
 #app-mint .how:hover {

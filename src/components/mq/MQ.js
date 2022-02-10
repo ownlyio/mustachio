@@ -59,7 +59,7 @@ function MQ() {
                             <form onSubmit={submitForm}>
                                 <div className="input-group">
                                     <input type="email" name="emailAdd" id="emailAdd" className="form-control font-andes text-xl" placeholder="Email Address" aria-label="Enter Your Email Address here" onChange={(e) => setEmailAdd(e.target.value)} />
-                                    <button className="btn btn-custom-2 font-w-hermann w-hermann-reg text-2xl" type="submit" id="footer-btn">SUBSCRIBE</button>
+                                    <button className="btn btn-custom-2 subscribe font-w-hermann w-hermann-reg text-2xl" type="submit" id="footer-btn">SUBSCRIBE</button>
                                 </div>
                             </form>
                         </div>

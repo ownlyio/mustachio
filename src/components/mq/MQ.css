@@ -2,6 +2,10 @@
   padding: 8em 0;
 }
 
+.subscribe:hover {
+  border-color: white;
+}
+
 @media (max-width: 1200px) {
   #mq h1 {
     font-size: 3rem;

@@ -3,6 +3,7 @@
 :root {
   --gen-color: #120833;
   --yellow: #a2b634;
+  --hover-color: #770c13;
 }
 
 * {
@@ -1162,6 +1163,12 @@ body {
 
 .btn-custom-2 {
   background-color: var(--yellow);
+  color: #fff;
+  text-align: center;
+}
+
+.btn-custom-2:hover {
+  background-color: var(--hover-color);
   color: #fff;
   text-align: center;
 }
