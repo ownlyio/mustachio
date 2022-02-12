@@ -403,7 +403,7 @@ function App() {
                                                     <span className="text-white text-lg font-andes">Mustachio Quest Early Preview Launch</span>
                                                 </li>
                                                 <li className="soon">
-                                                    <span className="text-white text-lg font-andes">Launch of the 10,000 3D Mustachios</span>
+                                                    <span className="text-white text-lg font-andes">Launch of the 10,000 3D Mustachio Redeemers</span>
                                                 </li>
                                                 <li className="soon">
                                                     <span className="text-white text-lg font-andes">Launch of 3D Mustachio Visualizer</span>
