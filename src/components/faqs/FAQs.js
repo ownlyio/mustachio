@@ -16,7 +16,7 @@ function FAQs(props) {
                             <div id="flush-collapse-1" className="accordion-collapse collapse" data-bs-parent="#app-faqs-accordion">
                                 <div className="accordion-body">
                                     <p className="text-lg font-andes">The Mustachios are the first-ever NFT Tales to be told in the NFT industry. Intricately hand-drawn by the talented Boii Mustache, it took the artist years in the making to actualize the idea of being whatever you want to be, in a land of mustached beings. Now, the concept is solidified through our play-to-earn game, Mustachio Quest, where our Mustachio holders can fulfill quests in an open world NFT game as their 3D Mustachio avatar.</p>
-                                    <p className="text-lg font-andes">There will be a total of 300 Mustachios that come with 2D Mustachio NFTs from our Genesis set and an additional 10,000 3D generative Mustachios known as 3D Playstachios.</p>
+                                    <p className="text-lg font-andes">There will be a total of 300 Mustachios that come with 2D Mustachio NFTs. Our first 100 Mustachios from our Genesis set are called Mustachio Royals, and 101-300 Mustachios are called Mustachio Rulers, and an additional 10,000 3D generative Mustachios soon to launch are called Mustachio Redeemers.</p>
                                 </div>
                             </div>
                         </div>
