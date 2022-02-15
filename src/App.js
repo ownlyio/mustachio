@@ -671,16 +671,6 @@ function App() {
                                                 <p className="text-white font-andes-italic mb-1">Technical Advisor</p>
                                             </div>
                                         </div>
-                                        <div className="app-team-bg-wrap mb-4">
-                                            <div className="app-team-bg-img mb-3">
-                                                <img src={mountainwarrior} alt="Mountain Warrior" />
-                                            </div>
-                                            <div className="app-team-bg-desc text-center">
-                                                <h3 className="text-white font-w-hermann w-hermann-semibold mb-1">Mountain Warrior</h3>
-                                                <p className="text-white text-lg font-andes mb-1">Karl Vasquez</p>
-                                                <p className="text-white font-andes-italic mb-1">Marketing Advisor</p>
-                                            </div>
-                                        </div> 
                                     </div>
                                 </section>
 
